@@ -2,14 +2,14 @@
     padding: 0;
     margin: 0;
 }
-
+/*-----------------------start of navbar--------------------------------*/
 #my-nav-bar{
     position: sticky;
     top: 0;
     /* z-index: 1; */
 }
 .navbar{
-    background-image: linear-gradient(to left,rgb(175, 43, 43),rgb(95, 3, 3));
+    background-image: linear-gradient(to right,rgb(175, 43, 43),rgb(95, 3, 3));
     padding: 0 !important;
 }
 .navbar-brand img{
@@ -31,3 +31,37 @@
 .navbar-toggler{
     border: none !important;
 }
+/*-----------------------end of navbar--------------------------------*/
+
+
+
+/*-----------------------start of banner--------------------------------*/
+#banner{
+    background-image: linear-gradient(to right,rgb(175, 43, 43),rgb(95, 3, 3));
+    padding-top: 5%;
+}
+#banner .container .banner-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 2.5em;
+    color: #fff;
+}
+
+#banner .container .fa-play-circle{
+    font-size: 45px;
+    /* margin: 0 20px 10px 0; */
+    margin: 20px;
+}
+#banner .container a{
+    text-decoration: none;
+    color: #fff;
+}
+#banner .container a span{
+   
+}
+#wave{
+    width: 100%;
+}
+/*-----------------------end of banner--------------------------------*/
+
