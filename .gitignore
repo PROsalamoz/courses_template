@@ -1,0 +1,9 @@
+.DS_Store
+fontawesome-free-5.15.2-web
+js
+css/bootstrap-reboot.css
+css/bootstrap.bundle.min.js
+css/bootstrap.min.js
+*.png
+*.jpg
+*.svg
