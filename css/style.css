@@ -6,7 +6,7 @@
 #my-nav-bar{
     position: sticky;
     top: 0;
-    /* z-index: 1; */
+    z-index: 1;
 }
 .navbar{
     background-image: linear-gradient(to right,rgb(175, 43, 43),rgb(95, 3, 3));
@@ -64,4 +64,192 @@
     width: 100%;
 }
 /*-----------------------end of banner--------------------------------*/
+
+
+/*-----------------------start of services--------------------------------*/
+#services{
+    padding: 80px 0;
+}
+
+#services .services{
+    margin-top: 5%;
+}
+#services .services img{
+    width: 100px;
+    /* margin-top: 20px; */
+}
+#services .services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+/*--------make under line---------*/
+.title::before{
+    content: '';
+    display: block;
+    background : #7b1798;
+    height: 5px;
+    width: 200px;
+    margin: 0 auto;
+    transform: translateY(63px);
+}
+
+/*--------make under line overlap the first one---------*/
+.title::after{
+    content: '';
+    display: block;
+    background : #7b1798;
+    height: 10px;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    transform: translateY(17px);
+}
+#services .btn-primary{
+    background-image: linear-gradient(to right,#b12b2b,#5f0303);
+    padding: 10px 28px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition :transform 0.5s;
+}
+#services .btn-primary:hover{
+    background-image: linear-gradient(to left,rgb(175, 43, 43),rgb(95, 3, 3));
+    transform: translateY(-10px);
+}
+/*-----------------------end of services--------------------------------*/
+
+
+
+
+
+/*-----------------------start of about us--------------------------------*/
+#about-us{
+    background: #f8f9fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about-us .about-title{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 8%;
+}
+#about-us ul{
+    margin-left: 20px;
+}
+#about-us ul li{
+    margin: 10px 0;
+}
+/*-----------------------end of about us--------------------------------*/
+
+
+
+
+
+
+
+/*-----------------------start of testomilas--------------------------------*/
+#testomnials{
+    margin: 100px 0;
+}
+#testomnials .testomnials{
+    border-left: 4px solid rgb(175, 43, 43);
+    margin: 50px 0;
+}
+#testomnials .testomnials img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+}
+/*-----------------------end of  testomilas--------------------------------*/
+
+
+
+
+
+
+/*-----------------------start of  social--------------------------------*/
+#social{
+    background: #f8f9fa;
+    padding: 150px 0;
+}
+
+#social .social-icons{
+    margin-top: 70px;
+ }
+
+#social .social-icons a{
+   margin: 10px;
+}
+#social .social-icons a img{
+    width: 60px;
+    transition :transform 0.5s;
+ }
+#social .social-icons a:hover img{
+    transform: translateY(-10px);
+    cursor: pointer;
+ }
+/*-----------------------end of  social--------------------------------*/
+
+
+
+
+
+
+
+/*-----------------------start of  footer--------------------------------*/
+footer{
+    background-image: linear-gradient(to right,rgb(175, 43, 43),rgb(95, 3, 3));
+    color: #fff;
+}
+footer .footer-img{
+    width: 100%;
+    /* rotate:; */
+}
+footer .footer-box{
+    padding: 20px;
+}
+footer .footer-box img{
+    height: 60px;
+    /* width: 120px; */
+    margin-bottom: 20px;
+}
+footer .contact{
+    padding: 35px;
+}
+footer .footer-box .fas{
+    margin-right: 10px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right,rgb(250, 6, 6),rgb(182, 3, 3));
+}
+footer .footer-box input{
+    border: none;
+    margin-top: 25px;
+    max-width: 250px;
+}
+footer .footer-box .btn-danger{
+    border: none;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,rgb(250, 6, 6),rgb(182, 3, 3));
+}
+footer hr{
+    background-color: #fff;
+}
+footer .copyright{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+/*-----------------------end of  footer--------------------------------*/
+
 
